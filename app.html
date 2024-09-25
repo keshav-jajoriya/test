@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Creation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1 class="app_title">Create Table</h1>
+
+        <div class="header_section">
+            <input type="number" name="row" id="rows" min="1" placeholder="Enter rows">
+            <input type="number" name="column" id="columns" min="1" placeholder="Enter columns">
+            <button id="create_table">Create Table</button>
+            <button id="reset_table" disabled>Reset Table</button>
+            <button id="add_row" disabled>Add Row</button>
+            <button id="add_column" disabled>Add Column</button>
+        </div>
+
+        <div id="table_content"></div>
+    </div>
+    <!-- js script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
